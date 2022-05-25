@@ -1,0 +1,28 @@
+.main-footer {
+  padding: 24px 0;
+
+  @media (min-width: @tablet-width) {
+    margin-top: 10px;
+    padding: 12px 0 22px;
+  }
+
+  @media (min-width: @desktop-width) {
+    margin-top: 0;
+    padding: 25px 0 22px;
+  }
+}
+
+.main-footer__wrapper {
+  @media (min-width: @tablet-width) {
+    display: flex;
+    padding: 0 50px 0 60px;
+  }
+
+  @media (min-width: @tablet-gap-width) {
+    justify-content: space-between;
+  }
+
+  @media (min-width: @desktop-width) {
+    padding: 0 100px;
+  }
+}
